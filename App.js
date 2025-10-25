@@ -13,11 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
-        {/* <Route path="/register" element={<Register />} /> */}
         <Route path="/register" element={<Register />} />
-        <Route path="/books" element={<BookList />} />
-        <Route path="/rentals" element={<RentalHistory />} />
-        <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/forgot-password" element={<Forgotpassword />} />
         <Route path="/booklist" element={<BookList/>}/>
       </Routes>
